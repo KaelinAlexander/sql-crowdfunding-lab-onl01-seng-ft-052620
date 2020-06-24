@@ -9,7 +9,8 @@
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title
   "SELECT projects.name, pledeges.amount FROM projects
   JOIN pledges ON pledges.project_id = project.id
-  SORT BY projects.name"
+  SORT BY projects.name
+  GROUP BY projects.name"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
