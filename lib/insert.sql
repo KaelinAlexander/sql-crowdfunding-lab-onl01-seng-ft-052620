@@ -12,8 +12,26 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ;
 
 INSERT INTO users (name, age) VALUES
-
-
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
+("A", 10)
 ;
 
 INSERT INTO pledges () VALUES
